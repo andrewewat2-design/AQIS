@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aqis"
+version = "0.1.0"
+description = "Agent-supervised quantitative strategy lifecycle and paper-trading prototype"
+requires-python = ">=3.12"
+authors = [{ name = "AQIS" }]
+dependencies = []
+
+[project.scripts]
+aqis = "aqis.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

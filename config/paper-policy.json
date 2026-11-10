@@ -1,0 +1,22 @@
+{
+  "policy_id": "aqis-paper-btcusdt",
+  "version": 1,
+  "starting_equity_usdt": "10000",
+  "max_position_pct": "0.20",
+  "max_order_pct": "0.10",
+  "daily_loss_stop_pct": "0.02",
+  "max_drawdown_stop_pct": "0.05",
+  "fee_rate": "0.001",
+  "slippage_bps": "10",
+  "min_net_edge_pct": "0",
+  "max_candle_lag_seconds": 300,
+  "max_consecutive_execution_errors": 3,
+  "volatility_review_multiple": "2",
+  "strategy_correlation_review": "0.85",
+  "slippage_deviation_review_bps": "20",
+  "minimum_correlation_samples": 30,
+  "market": "BTC/USDT",
+  "venue": "binance",
+  "timeframe": "1h",
+  "live_trading_enabled": false
+}

@@ -1,0 +1,36 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+*.sqlite3
+*.db
+outputs/
+.env
+
+# Dashboard environment
+.venv-dashboard/
+
+# Secrets and credentials
+.env.*
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# Local/private recovery data
+recovery/*
+!recovery/README.md
+
+# Python/build artifacts
+.mypy_cache/
+.ruff_cache/
+dist/
+build/
+*.egg-info/
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+*.bak
